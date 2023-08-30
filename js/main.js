@@ -13,3 +13,10 @@ $(window).scroll(function(){
     $('nav').css('backgroundColor','transparent')
   }
 })
+$(document).ready(function () {
+  
+  $(".loading").fadeOut(1000, function () {
+    $("body").css( "overflow", "visible" );
+  });
+
+});

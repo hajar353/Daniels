@@ -1,5 +1,6 @@
 body {
     font-family: "Nunito Sans", sans-serif;
+    overflow: hidden;
   }
   
   h1,
@@ -9,6 +10,20 @@ body {
   h5,
   h6 {
     font-family: "Montserrat", sans-serif;
+  }
+  .loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+    background-color: white;
+    z-index: 999999999;
   }
   header {
     height: 100vh;
