@@ -17,12 +17,12 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    display: flex !important;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     z-index: 99999999;
   }
   header {
