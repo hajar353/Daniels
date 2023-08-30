@@ -61,7 +61,7 @@ nav .nav-link.active::after{
   background-color: white;
   position: absolute;
   bottom: 20%;
-  left: 10%; 
+  left: 10% ; 
   animation: line 0.6s alternate ;
 }
 nav a{
