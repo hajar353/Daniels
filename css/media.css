@@ -39,5 +39,57 @@
     }
  
   }
+  @media screen and (max-width: 690px) {
+    nav .nav-link.active::after {
+      content: "";
+      width:40% !important;
+      height: 2px;
+      background-color: white;
+      position: absolute;
+      bottom: 15% !important;
+      left: -3% ; 
+      animation: line 0.6s alternate ;
+    }
+ 
+  }
+  @media screen and (max-width: 688px) and (min-width: 400px) {
+    nav .nav-link.active::after {
+      content: "";
+      width:25% !important;
+      height: 2px;
+      background-color: white;
+      position: absolute;
+      bottom: 15% !important;
+      left: -3% ; 
+      animation: line 0.6s alternate ;
+    }
+ 
+  }
+  @media screen and (max-width: 400px) {
+    nav .nav-link.active::after {
+      content: "";
+      width:25% !important;
+      height: 2px;
+      background-color: white;
+      position: absolute;
+      bottom: 15% !important;
+      left: 0% ; 
+      animation: line 0.6s alternate ;
+    }
+ 
+  }
+  @media screen and (max-width: 280px) {
+    nav .nav-link.active::after {
+      content: "";
+      width:40% !important;
+      height: 2px;
+      background-color: white;
+      position: absolute;
+      bottom: 15% !important;
+      left: 0% ; 
+      animation: line 0.6s alternate ;
+    }
+ 
+  }
   
   
